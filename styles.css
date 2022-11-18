@@ -1,0 +1,358 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  /* HEADER */
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 200px;
+    background-image: url("hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color:white;
+  }
+  
+  .menu-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    color:white;
+  }
+  
+  .main-heading {
+    font-size: 64px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .header-text {
+    max-width: 600px;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .header-link {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #FFC0CB;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 14px;
+    text-decoration: none;
+  }
+  
+  /* ABOUT SECTION */
+  .section-about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .about-heading {
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+    color: #fcd4d4;
+  }
+
+  .about-image-wrapper {
+    position: relative;
+  }
+
+  .about-image-wrapper::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #fcc3c2;
+    border-radius: 8px;
+    z-index: -1;
+  }
+
+  .about-image-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    background: #fcd4d4
+    border-radius: 8px;
+    z-index: -1;
+  }
+  
+  .about-image {
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  .text {
+    font-size: 20px;
+    color:#fcd4d4;
+    
+  }
+  
+  /* HOBBY SECTION */
+  .hobby-name {
+    font-size: 24px;
+    font-weight: semibold;
+    color: white;
+  }
+  
+  .hobby-text {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .section-hobby {
+    background-color:#fce3e4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .hobby-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hobby-list {
+    display: flex;
+    gap: 50px;
+  }
+  .hobby-item {
+    text-align: center;
+  }
+  .hobby-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  /* PHOTOS SECTION */
+ /* PHOTOS SECTION */
+ .section-photos {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 460px) {
+  .section-photos {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+
+.photos {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.photos-text {
+  font-size: 20px;
+  color: #fcc3c2;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photos-heading {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: #fcc3c2;
+}
+
+.photos-description {
+  font-size: 20px;
+  color: #fcc3c2;
+}
+
+.figure {
+  max-width: 30%;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .figure {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 460px) {
+  .figure {
+    max-width: 100%;
+  }
+}
+
+.figure-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.figure-description {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #fcc3c2;
+}
+  
+  ul { list-style-type: none; }
+  
+  /* QUOTE SECTION */
+  .section-quote {
+    padding: 60px;
+    background-color: #fcc3c2;
+  }
+  
+  .quote {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+  }
+  
+  .quote-author {
+    display: block;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+  }
+
+  .quote-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .quote-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  /* CONTACT */
+  .section-contact {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+  }
+  
+  .contact-heading {
+    font-size: 40px;
+    text-align: center;
+    color: #fcc3c2;
+    font-family: "Playfair Display", serif;
+
+  }
+  
+  .input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #FFC0CB;;
+    border-radius: 4px;
+  }
+  
+  .textarea {
+    padding: 10px;
+    border: 1px solid #FFC0CB;;
+    border-radius: 4px;
+  }
+  
+  .form-button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #fcc3c2;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 14px;
+    text-decoration: none;
+    border: none;
+  }
+
+  .label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  /* FOOTER */
+  .footer {
+    padding: 50px;
+    background-color: #fcc3c2;
+    color: white;
+  }
+  
+  .footer-content { 
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-link {
+    color: white;
+  }
+  .social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
